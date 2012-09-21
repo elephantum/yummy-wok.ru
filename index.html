@@ -1,23 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<style type="text/css">
-	body {
-		background-image: url('bg.png');
+	.header {
+		padding-top: 2em;
+		padding-bottom: 2em;
 	}
-	#cat {
-		background-image: url('cat.png'); 
-		width: 450px; 
-		height: 251px;
-		position: absolute;
-		left: 50%;
-		margin-left: -225px;
-		margin-top: 100px;
+	.footer {
+		padding-top: 2em;
+	}
+	body {
+		font-size: 110%;
+		background-color: #fce993;
 	}
 	</style>
 </head>
-<body>
-	<div id="cat">
+<body class="container">
+	<div class="row header">
+		<div class="span6">
+			<img src="cat.png"/>
+		</div>
+		<div class="span6">
+			<img src="map.png"/>
+		</div>
 	</div>
+
+	<div class="row">
+		<div class="span12">
+			<h1>Воки с лапшой (400г)</h1>	
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="span12">
+			<h2>Выберите начинку</h2>
+			<div class="row">
+				<div class="span6">
+					<ul>
+						<li>овощи <b>150</b></li>
+						<li>овощи + курица <b>190</b></li>
+					</ul>
+				</div>
+				<div class="span6">
+					<ul>
+						<li>овощи + свинина <b>190</b></li>
+						<li>овощи + морепродукты <b>220</b></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="span12">
+			<h2>Выберите лапшу</h2>
+			<div class="row">
+				<div class="span6">
+					<ul>
+						<li>пшеничная</li>
+						<li>яичная</li>
+					</ul>
+				</div>
+				<div class="span6">
+					<ul>
+						<li>гречневая</li>
+						<li>стеклянная</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="span12">
+			<h2>Выберите соус</h2>
+			<div class="row">
+				<div class="span6">
+					<ul>
+						<li>кисло-сладкий</li>
+						<li>сладко-острый</li>
+						<li>устричный</li>
+					</ul>
+				</div>
+				<div class="span6">
+					<ul>
+						<li>имбирно-чесночный</li>
+						<li>сливовый</li>
+						<li>перечный</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="span12">
+			<h2>Добавьте по вкусу</h2>
+			<div class="row">
+				<div class="span6">
+					<ul>
+						<li>ростки фасоли</li>
+						<li>ростки сои</li>
+						<li>грибы шиитаке</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="span12">
+			<h1>
+				Мясные воки (350г)
+			</h1>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="span12">
+			<ul>
+				<li>Курица в кисло-сладком соусе с ананасами <b>200</b></li>
+				<li>Свинина в кисло-сладком соусе с ананасами <b>220</b></li>
+				<li>Курица с арахисом в ореховом соусе <b>200</b></li>
+				<li>Острая свинина по-сычуаньски <b>240</b></li>
+				<li>+ дополнительная лапша или рис <b>50</b></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="row footer">
+	</div>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
